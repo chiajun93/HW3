@@ -5,7 +5,7 @@
                    displayName="Header Files"
                    projectFiles="true">
       <itemPath>../HW2 Objects/Linux x86_64/util.h</itemPath>
-      <itemPath>weatherio.h</itemPath>
+      <itemPath>/Users/chiajuntai/Dropbox/ISU/COM S 327/HW3/HW2 Objects/Mac OS X/weatherio.h</itemPath>
     </logicalFolder>
     <logicalFolder name="ResourceFiles"
                    displayName="Resource Files"
@@ -37,12 +37,21 @@
         <rebuildPropChanged>false</rebuildPropChanged>
       </toolsSet>
       <compileType>
+        <linkerTool>
+          <linkerLibItems>
+            <linkerLibFileItem>/Users/chiajuntai/Dropbox/ISU/COM S 327/HW3/HW2 Objects/Mac OS X/util.o</linkerLibFileItem>
+            <linkerLibFileItem>/Users/chiajuntai/Dropbox/ISU/COM S 327/HW3/HW2 Objects/Mac OS X/weatherio.o</linkerLibFileItem>
+          </linkerLibItems>
+        </linkerTool>
       </compileType>
       <item path="../HW2 Objects/Linux x86_64/util.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="analyze.c" ex="false" tool="0" flavor2="0">
+      <item path="/Users/chiajuntai/Dropbox/ISU/COM S 327/HW3/HW2 Objects/Mac OS X/weatherio.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
       </item>
-      <item path="weatherio.h" ex="false" tool="3" flavor2="0">
+      <item path="analyze.c" ex="false" tool="0" flavor2="0">
       </item>
     </conf>
     <conf name="Release" type="1">
@@ -67,9 +76,12 @@
       </compileType>
       <item path="../HW2 Objects/Linux x86_64/util.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="analyze.c" ex="false" tool="0" flavor2="0">
+      <item path="/Users/chiajuntai/Dropbox/ISU/COM S 327/HW3/HW2 Objects/Mac OS X/weatherio.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
       </item>
-      <item path="weatherio.h" ex="false" tool="3" flavor2="0">
+      <item path="analyze.c" ex="false" tool="0" flavor2="0">
       </item>
     </conf>
   </confs>

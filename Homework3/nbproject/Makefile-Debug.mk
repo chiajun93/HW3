@@ -21,8 +21,8 @@ FC=gfortran
 AS=as
 
 # Macros
-CND_PLATFORM=Cygwin_4.x-Windows
-CND_DLIB_EXT=dll
+CND_PLATFORM=GNU-MacOSX
+CND_DLIB_EXT=dylib
 CND_CONF=Debug
 CND_DISTDIR=dist
 CND_BUILDDIR=build
@@ -52,13 +52,17 @@ FFLAGS=
 ASFLAGS=
 
 # Link Libraries and Options
-LDLIBSOPTIONS=
+LDLIBSOPTIONS="/Users/chiajuntai/Dropbox/ISU/COM S 327/HW3/HW2 Objects/Mac OS X/util.o" "/Users/chiajuntai/Dropbox/ISU/COM S 327/HW3/HW2 Objects/Mac OS X/weatherio.o"  
 
 # Build Targets
 .build-conf: ${BUILD_SUBPROJECTS}
-	"${MAKE}"  -f nbproject/Makefile-${CND_CONF}.mk ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/homework3.exe
+	"${MAKE}"  -f nbproject/Makefile-${CND_CONF}.mk ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/homework3
 
-${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/homework3.exe: ${OBJECTFILES}
+${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/homework3: /Users/chiajuntai/Dropbox/ISU/COM\ S\ 327/HW3/HW2\ Objects/Mac\ OS\ X/util.o
+
+${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/homework3: /Users/chiajuntai/Dropbox/ISU/COM\ S\ 327/HW3/HW2\ Objects/Mac\ OS\ X/weatherio.o
+
+${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/homework3: ${OBJECTFILES}
 	${MKDIR} -p ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}
 	${LINK.c} -o ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/homework3 ${OBJECTFILES} ${LDLIBSOPTIONS}
 
@@ -73,7 +77,7 @@ ${OBJECTDIR}/analyze.o: analyze.c
 # Clean Targets
 .clean-conf: ${CLEAN_SUBPROJECTS}
 	${RM} -r ${CND_BUILDDIR}/${CND_CONF}
-	${RM} ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/homework3.exe
+	${RM} ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/homework3
 
 # Subprojects
 .clean-subprojects:
