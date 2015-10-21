@@ -1,0 +1,6 @@
+2.1
+Changed type of "Date" to "LONG", and added "LONG" to types in util.h
+Removed "const" from prototypes in util.h and weatherio.h
+Floating point types are now limited to at most 1 digit after the decimal place
+Wind Spd is now limited to 4 characters instead of 5
+Fixed an off-by-one error in read_header
