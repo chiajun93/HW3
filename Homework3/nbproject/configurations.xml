@@ -4,8 +4,8 @@
     <logicalFolder name="HeaderFiles"
                    displayName="Header Files"
                    projectFiles="true">
-      <itemPath>../HW2 Objects/Linux x86_64/util.h</itemPath>
-      <itemPath>weatherio.h</itemPath>
+      <itemPath>D:/Dropbox/ISU/COM S 327/HW3/Homework3/util.h</itemPath>
+      <itemPath>D:/Dropbox/ISU/COM S 327/HW3/Homework3/weatherio.h</itemPath>
     </logicalFolder>
     <logicalFolder name="ResourceFiles"
                    displayName="Resource Files"
@@ -38,11 +38,17 @@
       </toolsSet>
       <compileType>
       </compileType>
-      <item path="../HW2 Objects/Linux x86_64/util.h" ex="false" tool="3" flavor2="0">
+      <item path="D:/Dropbox/ISU/COM S 327/HW3/Homework3/util.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="D:/Dropbox/ISU/COM S 327/HW3/Homework3/weatherio.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
       </item>
       <item path="analyze.c" ex="false" tool="0" flavor2="0">
-      </item>
-      <item path="weatherio.h" ex="false" tool="3" flavor2="0">
       </item>
     </conf>
     <conf name="Release" type="1">
@@ -65,11 +71,17 @@
           <developmentMode>5</developmentMode>
         </asmTool>
       </compileType>
-      <item path="../HW2 Objects/Linux x86_64/util.h" ex="false" tool="3" flavor2="0">
+      <item path="D:/Dropbox/ISU/COM S 327/HW3/Homework3/util.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="D:/Dropbox/ISU/COM S 327/HW3/Homework3/weatherio.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
       </item>
       <item path="analyze.c" ex="false" tool="0" flavor2="0">
-      </item>
-      <item path="weatherio.h" ex="false" tool="3" flavor2="0">
       </item>
     </conf>
   </confs>

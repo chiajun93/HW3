@@ -117,29 +117,23 @@ double getMinValue(FILE *fp, int targetIdx){
 void readDataCols(char *file, int targetIdx, int dateIdx, int hrMnIdx){
     FILE *fp = fopen(file, "r");
     int numRows = 0;
-    char *row = (char *)malloc(sizeof(char) * 1000);
-    char s[2] = ",";
-    char *token;
-    char **arr = (char **)malloc(sizeof(char *) * 20);
+    char *str = (char *) malloc(1000);
+    char *row = fgets(str, 1000, fp);
     fgets(row, 1000, fp);
+    
     int date[6];
     int hrMn[4];
-    
+        
+    int headersCol = header_columns(file);
+    char **headerData = (char **) malloc(sizeof (char *) * headersCol);
+    void **temp = (void **) malloc(sizeof (void *) * headersCol);
     
     while(!feof(fp)){
-        fgets(row, 1000, fp);
-        token = strtok(row, s);
-        int i = 0;
-        while( token != NULL ) 
-          {
-           arr[i] = token;
-//           printf("Token : %s\n", arr[i]);
-           token = strtok(NULL, s);
-           i++;
-        }
-        printf("Date: %s, HrMN: %s\n", arr[dateIdx], arr[hrMnIdx]);
-        
+        read_row(fp, headerData, temp);
+        printf("Date: %s, HrMN: %s\n", temp[0], temp[1]);
+        break;
     }
+    
     fclose(fp);
 }    
     
