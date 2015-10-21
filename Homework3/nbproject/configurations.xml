@@ -4,8 +4,13 @@
     <logicalFolder name="HeaderFiles"
                    displayName="Header Files"
                    projectFiles="true">
+<<<<<<< HEAD
+      <itemPath>D:/Dropbox/ISU/COM S 327/HW3/Homework3/util.h</itemPath>
+      <itemPath>D:/Dropbox/ISU/COM S 327/HW3/Homework3/weatherio.h</itemPath>
+=======
       <itemPath>../HW2 Objects/Linux x86_64/util.h</itemPath>
       <itemPath>/Users/chiajuntai/Dropbox/ISU/COM S 327/HW3/HW2 Objects/Mac OS X/weatherio.h</itemPath>
+>>>>>>> Mac_Working
     </logicalFolder>
     <logicalFolder name="ResourceFiles"
                    displayName="Resource Files"
@@ -44,9 +49,16 @@
           </linkerLibItems>
         </linkerTool>
       </compileType>
-      <item path="../HW2 Objects/Linux x86_64/util.h" ex="false" tool="3" flavor2="0">
+      <item path="D:/Dropbox/ISU/COM S 327/HW3/Homework3/util.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
       </item>
+<<<<<<< HEAD
+      <item path="D:/Dropbox/ISU/COM S 327/HW3/Homework3/weatherio.h"
+=======
       <item path="/Users/chiajuntai/Dropbox/ISU/COM S 327/HW3/HW2 Objects/Mac OS X/weatherio.h"
+>>>>>>> Mac_Working
             ex="false"
             tool="3"
             flavor2="0">
@@ -74,9 +86,16 @@
           <developmentMode>5</developmentMode>
         </asmTool>
       </compileType>
-      <item path="../HW2 Objects/Linux x86_64/util.h" ex="false" tool="3" flavor2="0">
+      <item path="D:/Dropbox/ISU/COM S 327/HW3/Homework3/util.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
       </item>
+<<<<<<< HEAD
+      <item path="D:/Dropbox/ISU/COM S 327/HW3/Homework3/weatherio.h"
+=======
       <item path="/Users/chiajuntai/Dropbox/ISU/COM S 327/HW3/HW2 Objects/Mac OS X/weatherio.h"
+>>>>>>> Mac_Working
             ex="false"
             tool="3"
             flavor2="0">

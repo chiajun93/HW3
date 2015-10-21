@@ -180,7 +180,7 @@ void readDataCols(char *file, int targetIdx){
         weatherio_cleanup();
     }
     
-    
+   
     fclose(fp);
 }
 
